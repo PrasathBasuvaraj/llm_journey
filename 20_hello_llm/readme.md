@@ -63,3 +63,13 @@ In this guide you will find all the instructions your need to run the llm_career
 - Refer to each provider’s documentation for usage examples.
 
 ---
+
+## 🔑 Pull & Run LLM Models locally on ollama
+
+To run LLM models locally, you’ll need to have Ollama installed on your system. Refer to the [Ollama installation guide](../10_setup/install_ollama.md) for setup instructions and local model execution steps.
+
+### 1. LLaMA 3
+
+- Pull the LLaMA 3 model `ollama pull llama3`
+- Run the model `ollama run llama3`
+- Verify it's working, type a simple prompt like `Hello, what can you do?`
