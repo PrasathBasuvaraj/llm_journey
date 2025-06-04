@@ -34,7 +34,7 @@ conda --version
 Now, create an isolated Conda environment for your Jupyter notebooks:
 
 ```sh
-conda create -n llm-journey
+conda env create -f environment.yml
 ```
 
 This sets up a new environment named **llm-journey**.
@@ -42,7 +42,19 @@ This sets up a new environment named **llm-journey**.
 Activate it with:
 
 ```sh
-conda activate llm-journey
+conda activate hyppar-llms
+```
+
+Check if everything is installed correctly:
+
+```sh
+conda list
+```
+
+Or see the environment info:
+
+```sh
+conda info --envs
 ```
 
 ---
@@ -88,7 +100,7 @@ This will open **JupyterLab** in your browser.
 - **Delete an environment** (if needed):
 
   ```sh
-  conda remove llm-journey
+  conda env remove --name hyppar-llms
   ```
 
 ---

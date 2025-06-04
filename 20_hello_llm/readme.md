@@ -13,7 +13,7 @@ In this guide you will find all the instructions your need to run the llm_career
 - Click **Create new secret key**.
 - Copy and save your API key.
 
-### 2. Google Gemini (Vertex AI)
+### 2. Google Gemini
 
 - Visit [Google Cloud Console](https://console.cloud.google.com/).
 - Create/select a project.
